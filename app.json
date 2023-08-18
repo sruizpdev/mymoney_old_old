@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mymoney",
-    "slug": "mymoney",
+    "name": "mymoney2",
+    "slug": "mymoney2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ruizpser.mymoney2"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a2429c17-787b-4424-b516-60103346cc3f"
+      }
     }
   }
 }
